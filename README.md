@@ -39,7 +39,7 @@ fake-news-detector/
 
    ```bash
    git clone https://github.com/Cindy-00/Fake-News-Detection-System.git
-   cd fake-news-detector
+   cd Fake-News-Detection-System
    ```
 2. **Create & activate a virtual environment**
 
