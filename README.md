@@ -12,26 +12,6 @@ This project implements an end-to-end machine learning pipeline to **detect fake
 4. Evaluate model performance using metrics and confusion matrix.
 5. Provide interpretability with SHAP explanations.
 
-## Repository Structure
-
-```
-fake-news-detector/
-│
-├── data/
-│   └── liar_dataset.csv       # Raw LIAR dataset
-│
-├── notebooks/
-│   └── fake_news_notebook.ipynb  # Jupyter notebook with code & analysis
-│
-├── models/
-│   └── logistic_model.pkl     # Serialized best model (optional)
-│
-├── reports/
-│   └── confusion_matrix.png   # Example plot
-│
-├── README.md                  # Project overview (this file)
-└── requirements.txt           # Python dependencies
-```
 
 ## Installation
 
@@ -81,11 +61,6 @@ fake-news-detector/
 * **F1 (Fake):** \~0.48
 * **F1 (Real):** \~0.67
 * SHAP analysis identified key words influencing predictions.
-
-## Visualizations
-
-* Confusion matrix (`reports/confusion_matrix.png`)
-* SHAP summary and force plots (in notebook outputs)
 
 ## Interpretation & Insights
 
